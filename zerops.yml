@@ -2,6 +2,6 @@
 use: [ nodejs@13, go@1 ]
 # which commands to run to build
 run:
-  - ./server
+  - ./server build
 # which files / folders to deploy after build
 deploy: [ server ]
