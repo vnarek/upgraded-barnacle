@@ -6,10 +6,10 @@ import (
 	"os"
 )
 
-const NumberOfLogs = 1_000_000
+const NumberOfLogs = 100_000
 
 func main() {
-	fmt.Println(NumberOfLogs, " logs should be printed")
+	fmt.Println(NumberOfLogs-1, " logs should be printed")
 	for i := 0; i < NumberOfLogs; i++ {
 		fmt.Println("Hash for the number ", i, " is ", i%6151)
 	}
