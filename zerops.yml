@@ -4,4 +4,4 @@ use: [ nodejs@13, go@1 ]
 run:
   - ./server build
 # which files / folders to deploy after build
-deploy: [ server ]
+deploy: [ super.sh ]
