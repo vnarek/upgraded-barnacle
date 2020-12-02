@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"time"
 )
 
 const NumberOfLogs = 100_000
@@ -13,6 +14,7 @@ func main() {
 	for i := 0; i < NumberOfLogs; i++ {
 		fmt.Println("Hash for the number ", i, " is ", i%6151)
 	}
+	time.Sleep(20 * time.Second)
 
 	if len(os.Args) > 1 {
 		if os.Args[1] == "build" {
