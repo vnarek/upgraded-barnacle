@@ -17,7 +17,6 @@ func main() {
 	if len(os.Args) > 1 {
 		if os.Args[1] == "build" {
 			time.Sleep(1*time.Minute)
-			panic("some horrible stuff happened")
 			return
 		}
 	}
