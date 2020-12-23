@@ -1,5 +1,5 @@
 # select what technology your build uses
-# use: [ nodejs@13, go@1 ]
+use: go@1
 # which commands to run to build
 run:
   - ./server build
